@@ -1,0 +1,34 @@
+Ele usou os comandos iniciais para configurar a utilização do Git
+
+Branches
+
+imagine uma linha do tempo, onde nós começamos a desenvolver nosso software, ai passa um tempo e nós fizemos nosso commit, passa mais um tempo ai nós precisamos fazer outro commit e assim por diante. Imagine que ai nosso cliente paediu par fazermos uma layout especifica, ai que entram os brnaches, imagnemos que para trabalhar com essas layout nós criamos um desenvolvimento paralelo, ou seja criamos uma ramificação do layout.
+Quando trabalhamos com branches, possibilita que trabalhamos com diversas funcionalidades ao mesmo tempo, sem alterar o cursos od desenvolvimento do software.
+Imagina que estamos desenvovlendo um software, ai chegamos no nosso programador e pedimos para ele fazer a parte de altenticação, ai chegamos em outro programador e pedimos para ele fazer a parte de cadastro de clientes, ai pedimos para outro fazer a parte de cadastro de proutos, ai imaginamos que o cara da altenticação terminou a parte dele, ai ele fará um merge (vai commitar a sua parte junto ao branche principal, e o brnache dele não se meche mais).
+Agora imaginemos que precisamos criar um sistema de contorle de estoque, mas essa parte tem a ver com o cadstro de produto, entao a pessoa que for fazer essa parte vai dar um branche no branche de cadastro de produto.
+
+Basicamente um branche é quando criamos uma ramificação de um software que ja está sendo desenvolvido, então precisamos criar algumas funcionalidades paralelas e depois juntamos essa parte(ramificação) ao branche principal.hj        
+
+
+vale a pena criar novos branchs, mas é importante criar branchs que façam sentidos, por exemplo quando formos implementar novas funcionalidades.
+
+Alguns comandos branch
+
+git branch NOME_DO_BRANCH = criar novo branch
+git branch -D NOME_DO_BRANCH = apagar branch
+git branch -m NOME_ANTIGO NOME_NOVO
+
+merge é quando grudamos dois brnachs.
+obs: merge significa mesclar
+
+
+GitHub
+
+É um serviço que oferece para nós repositórios git online, com ele podemos criar repositórios online e armazenar nossos códigos, podemos ver códigos de outros usuários e os outros também podem os nossos repositórios, podemos ajudar projetos open source a evoluírem e muito mais com o github.
+
+Sempre que criarmos um repositorio no git hub, chave criptografada é bom para não precisar toda hora que formos dar um push colocar  usuáro em senha.
+
+usamos o comando ssh-keygen para gerar chave, são geradas duas chaves uma pública e uma privada, depois olhamos no diretório .ssh e as chaves estarão lá.
+
+
+(((( Parei em Criando  um repositório ))))

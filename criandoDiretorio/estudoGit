@@ -1,0 +1,4 @@
+git status = comando para mostrar o status do repositório git
+git log = histórico do git
+git init = inicia repositório
+git commit = commitar arquivos
