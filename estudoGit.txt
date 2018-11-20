@@ -24,11 +24,18 @@ obs: merge significa mesclar
 
 GitHub
 
-É um serviço que oferece para nós repositórios git online, com ele podemos criar repositórios online e armazenar nossos códigos, podemos ver códigos de outros usuários e os outros também podem os nossos repositórios, podemos ajudar projetos open source a evoluírem e muito mais com o github.
+É um serviço que oferece repositórios git online, com ele podemos criar repositórios online e armazenar nossos códigos, podemos ver códigos de outros usuários e os outros também podem ver os nossos repositórios, podemos ajudar projetos open source a evoluírem e muito mais com o github.
 
 Sempre que criarmos um repositorio no git hub, chave criptografada é bom para não precisar toda hora que formos dar um push colocar  usuáro em senha.
 
 usamos o comando ssh-keygen para gerar chave, são geradas duas chaves uma pública e uma privada, depois olhamos no diretório .ssh e as chaves estarão lá.
 
 
-(((( Parei em Criando  um repositório ))))
+Repositório público todo mundo pode ver se código,mas não podem alterar seu código.
+Repositóio privado somente você e quem você quiser que pode ter acesso, porém é pago.
+
+
+PUSH = significa empurrar, é  quando você coloca os arquivos no repositório no git.
+
+
+((((Parei em: dando push em outro branch))))
